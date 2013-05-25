@@ -1,0 +1,15 @@
+Set_SublimeText_Java
+====================
+
+Set Sublime Text IDE for compiling and running  Java scripts. It's easy. The file required is here.
+
+How to use: 
+
+1) Go to Advanced Settings System of Windows 7 -> Environments Variables -> Add -> System Variables -> New
+2) Variable Name: Path | Variable value: C:\Program Files\Java\jdk_17.0_21\bin
+3) Download the files in this repository
+4) Move "runJava.bat" in C:\Program Files\Java\jdk_17.0_21\bin (last JDK release is 17.0u21)
+5) Move "JavaC.sublime-build" in C:\Users\User\AppData\Roaming\Sublime Text 2\Packages\Java
+6) Run Sublime Text 2, write some Java code and press CTRL + B for compiling and running 
+
+ENJOY!
